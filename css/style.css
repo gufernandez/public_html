@@ -10,21 +10,19 @@ h2{
 h3 {
   color:#1453FF;
 }
-/* The side navigation menu */
-.sidenav {
-   height: 100%; /* 100% Full-height */
-   width: 15%; /* 0 width - change this with JavaScript */
-   position: fixed; /* Stay in place */
-   z-index: 1; /* Stay on top */
-   top: 0; /* Stay at the top */
-   left: 0;
-   background-color: #000D1F; /*#242424;*/
-   overflow-x: hidden; /* Disable horizontal scroll */
-   border-right: 1px solid #333333;
-   /* padding-top: 60px; /* Place content 60px from the top */
 
+.sidenav {
+   height: 100%;
+   width: 15%;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #000D1F;
+   overflow-x: hidden;
+   border-right: 1px solid #333333;
    box-shadow: 2px 0px 10px 0px black;
-   /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+
 }
 .card {
   position: relative;
@@ -38,8 +36,8 @@ h3 {
   background-color: #EEFFFF;
   box-shadow: 2px 2px 5px 00px black;
   display: block;
-  height:  -moz-max-content;    /* Firefox/Gecko */
-  height: -webkit-max-content; /* Chrome */
+  height:  -moz-max-content;
+  height: -webkit-max-content;
 }
 .subcard {
   position: relative;
@@ -82,7 +80,7 @@ h3 {
   text-align: center;
   padding-bottom: 10px;
 }
-/* The navigation menu links */
+
 .sidenav a {
   position:relative;
   top: 10px;
@@ -95,28 +93,22 @@ h3 {
   text-align: center;
   height: auto;
   width: 100%;
-  /* background-color: #242424; */
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-   /* text-decoration: underline; */
    background-color: #001F2E;
 }
 
 .top {
   height: 30%;
   top: 0;
-  /* border: 1px solid #ddd; */
-  /* padding: 0px 0px; */
   background-image: url('../images/backProfile.jpg');
   background-clip: border-box;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* Vinheta */
+  /* Vignette */
   box-shadow: inset 0 0 100px #000;
-  /* box-shadow: 10px 0 5px 0 black; */
 }
 .middle {
   height: auto;
@@ -124,8 +116,21 @@ h3 {
   color: white;
   border-top: 2px solid #001F2E;
   border-bottom: 2px solid #001F2E;
-  /* box-shadow: inset 0 0 3px #000; */
+
 }
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  vertical-align: bottom;
+  border-top: 2px solid #001F2E;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
 .image-cropper {
     top: 10%;
     left: 25%;
@@ -175,17 +180,11 @@ h3 {
   float:right;
 }
 
-/* .art {
-
-} */
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
    padding: 0 0 0 15%;
 }
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/* 
 @media screen and (max-height: 450px) {
    .sidenav {padding-top: 15px;}
    .sidenav a {font-size: 18px;}
-}
+} */
